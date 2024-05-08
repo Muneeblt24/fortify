@@ -1,0 +1,58 @@
+#home_section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#text_section {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30px 0 100px;
+}
+
+.main_heading {
+    font-size: 65px;
+    font-family: 'poppins';
+    font-weight: 900;
+    color: #18181B;
+    line-height: 1;
+
+}
+
+#typical {
+    font-size: 35px;
+}
+
+.text {
+    font-size: 17px;
+    font-family: 'poppins';
+    color: #646464;
+    padding-top: 15px;
+}
+
+#highlited_txt {
+    color: white;
+    background-color: #0F8874;
+    padding: 3px 5px;
+    border-radius: 2px;
+}
+
+#image_section {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#home_Image {
+    width: 70%;
+    height: auto;
+}

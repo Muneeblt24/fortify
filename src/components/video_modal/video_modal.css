@@ -1,0 +1,55 @@
+.overlay {
+    position: fixed;
+    /* Ensures it covers the entire viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* More visible semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    /* High z-index to ensure it appears on top of other content */
+}
+
+.video-modal {
+    position: relative;
+    /* This is fine as it's inside the overlay */
+    width: 70%;
+    /* Responsive width */
+    max-width: 560px;
+    /* Maximum width of the modal */
+    aspect-ratio: 16 / 9;
+    /* Maintain a 16:9 aspect ratio */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    /* Shadow for better visibility */
+    background: white;
+    /* Background color for the modal */
+    border-radius: 10px;
+    /* Rounded corners */
+}
+
+.close-btn {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -30px;
+    right: -30px;
+    font-size: 16px;
+    color: #fff;
+    background-color: gray;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    z-index: 1010;
+}
+
+.close-btn:hover {
+    transform: scale(1.2);
+}

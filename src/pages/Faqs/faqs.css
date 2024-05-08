@@ -1,0 +1,122 @@
+#faq_section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 50px 10px;
+}
+
+#faq_hdng {
+    color: #2676BB;
+    font-size: 120px;
+    font-family: 'poppins';
+    font-weight: 800;
+    letter-spacing: 5px;
+    text-shadow: 0px 0px 27px rgba(0, 0, 0, 0.19);
+}
+
+#faq_container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#faq_item {
+    width: 100%;
+    padding: 10px 5px;
+    /* gap: 5px; */
+    border-bottom: #9e9e9ea3 solid 1px;
+}
+
+#question_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+#question {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'poppins';
+    font-weight: 400;
+}
+
+#answer_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    /* background-color: beige; */
+    animation: slide-down 0.3s;
+    padding-top: 10px;
+}
+
+@keyframes slide-down {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    100% {
+        display: flex;
+        opacity: 1;
+    }
+}
+
+
+#answer {
+    padding: 5px 0px;
+    margin: 0px 0px 0px 20px;
+    color: #6E6F72;
+    font-size: 16px;
+    font-family: 'poppins';
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+
+
+
+/* mobile screen coide */
+
+@media screen and (max-width: 450px) {
+
+    #faq_section {
+        padding: 50px 10px 0px 10px;
+    }
+
+    #faq_hdng {
+        color: #2676BB;
+        font-size: 70px;
+        font-family: 'poppins';
+        font-weight: 800;
+        letter-spacing: 3px;
+        text-shadow: 0px 0px 27px rgba(0, 0, 0, 0.19);
+    }
+
+    #question {
+        padding: 0;
+        margin: 0;
+        font-size: 15px;
+        font-family: 'poppins';
+        font-weight: 400;
+    }
+
+    #answer {
+        padding: 5px 0px;
+        margin: 0px 0px 0px 20px;
+        color: #6E6F72;
+        font-size: 15px;
+        font-family: 'poppins';
+        font-weight: 400;
+        line-height: 1.3;
+    }
+
+}

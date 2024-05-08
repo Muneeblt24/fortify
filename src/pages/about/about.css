@@ -1,0 +1,153 @@
+#about_section {
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 40px 120px 60px 100px;
+    background-image: linear-gradient(to right, #14E3C1, #11A088);
+}
+
+#about_content_div1 {
+    width: 100%;
+    height: auto;
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#about_hdng {
+    font-family: 'poppins';
+    font-size: 45px;
+    color: white;
+    font-weight: 900;
+}
+
+#about_txt_div {
+    width: 50%;
+
+}
+
+#about_txt {
+    font-size: 17px;
+    font-family: 'poppins';
+    color: white;
+}
+
+#about_btn_div {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+    margin-top: -20px;
+}
+
+#about_btn {
+    padding: 10px 30px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid #0F8874;
+    font-size: 15px;
+    font-family: 'poppins';
+    color: #0F8874;
+    transition: 0.3s ease;
+}
+
+#about_btn:hover {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+
+#about_btn:active {
+    border-width: 3px;
+    transition: none;
+}
+
+
+
+#about_content_div2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+#selections_div {
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+#selections_hdng {
+    font-size: 50px;
+    font-family: 'poppins';
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+#selection_btns_div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    padding-top: 30px;
+}
+
+.selection_btn {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'poppins';
+    font-weight: 300;
+    color: #18181B;
+    transition: 0.3s ease;
+}
+
+.selection_btn:hover {
+    background-color: #18181B;
+    color: white;
+}
+
+.selected {
+    background-color: #18181B;
+    color: white;
+}
+
+#selections_txt_div {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.178);
+    border-radius: 20px;
+}
+
+.selection_text_hdng {
+    font-size: 30px;
+    font-family: 'poppins';
+    font-weight: 600;
+    color: white;
+}
+
+.selection_txt {
+    font-size: 15px;
+    font-family: 'poppins';
+    font-weight: 300;
+    word-spacing: 5px;
+    color: white;
+}
